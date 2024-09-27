@@ -42,7 +42,7 @@ export default function Projects() {
                 </Avatar>
                 <h1 className="text-3xl text-[#FFD08A] font-bold mb-8">『整know』　
                     <Link href="https://topaz.dev/projects/1a5a4ffedaa05c7a06b4" className="text-xl hover:underline">
-                        Topa'z
+                        Topaz
                     </Link>
                 </h1>
                 <div className="flex flex-col items-center w-[80%]">
