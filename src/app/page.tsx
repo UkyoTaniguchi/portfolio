@@ -106,7 +106,7 @@ export default function Home() {
                 <IoIosMail className="h-4/6 w-4/6"/>
               </a>
             </div>
-            <div className="h-full w-1/2 border rounded-2xl">
+            <div className="h-full w-1/2 rounded-2xl">
 
             </div>
           </div>
