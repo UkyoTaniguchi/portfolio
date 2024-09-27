@@ -21,35 +21,38 @@ export default function Profile() {
             </div>
             <div className="w-full flex flex-col items-center text-center text-2xl mt-8 border-b">
                 <h1 className="mb-8 text-4xl font-bold">自己紹介</h1>
-                <div className="mb-6 px-5 py-3 rounded-xl shadow-inner shadow-[#0aafe6]">
+                <div className="mb-6 px-5 py-5 rounded-xl shadow-inner shadow-[#a7e9d0]">
                     <p className="text-3xl font-bold text-[#daf6ff] mb-5">趣味</p>
                     <p>サウナ・キャンプ・釣り・山登り</p>
                 </div>
-                <div className="mb-6 px-5 py-3 rounded-xl shadow-inner shadow-[#0aafe6]">
+                <div className="mb-6 px-5 py-5 rounded-xl shadow-inner shadow-[#a7e9d0]">
                     <p className="text-3xl font-bold text-[#daf6ff] mb-5">学歴</p>
                     <p>2024/03　北九州市立大学 国際環境工学部 情報システム工学科 卒業</p>
                 </div>
-                <div className="mb-6 px-5 py-3 rounded-xl shadow-inner shadow-[#0aafe6]">
+                <div className="mb-6 px-5 py-8 rounded-xl shadow-inner shadow-[#a7e9d0]">
                     <p className="text-3xl font-bold text-[#daf6ff] mb-5">言語・スキル</p>
-                    <div className="flex gap-2 overflow-x-auto">
-                        <Badge>python</Badge>
+                    <div className="flex flex-wrap justify-center gap-2">
+                        <Badge>Python</Badge>
                         <Badge>JavaScript</Badge>
                         <Badge>TypeScript</Badge>
                         <Badge>HTML/CSS</Badge>
                         <Badge>C言語</Badge>
                         <Badge>php</Badge>
                         <Badge>Next.js</Badge>
+                        <Badge>Flask</Badge>
                         <Badge>React</Badge>
-                        <Badge>tailwindcss</Badge>
+                        <Badge>Tailwind CSS</Badge>
                     </div>
                 </div>
-                <div className="flex flex-col items-center mb-6 px-5 py-3 rounded-xl shadow-inner shadow-[#0aafe6]">
+                <div className="flex flex-col items-center mb-6 px-5 py-10 rounded-xl shadow-inner shadow-[#a7e9d0]">
                     <p className="text-3xl font-bold text-[#daf6ff] mb-5">実績・受賞歴</p>
                     <p>2024/08　株式会社サポーターズ2Daysオンラインハッカソン出場</p>
                     <div className="border h-10 w-0 my-2"></div>
                     <p>2024/08　株式会社PR TImes3Daysオフラインハッカソン出場</p>
                     <div className="border h-10 w-0 my-2"></div>
                     <p>2024/09　株式会社クイック3Daysオフラインインターンシップ　優勝🏆</p>
+                    <div className="border h-10 w-0 my-2"></div>
+                    <p>2024/09　3Daysオフラインハックツハッカソン　入賞</p>
                 </div>           
             </div>
         </div>
