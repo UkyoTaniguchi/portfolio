@@ -25,7 +25,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="md:h-screen w-full p-12">
+    <main className="md:h-screen w-full p-3 sm:p-8 md:p-12">
       <div className="hidden md:flex gap-2 h-full w-full p-8 border rounded-xl">
         <div className="h-full w-1/3">
           <div className="flex gap-3 h-1/4 w-full p-1">
