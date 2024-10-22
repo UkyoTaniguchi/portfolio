@@ -20,7 +20,8 @@ import { Inter } from "next/font/google";
 import Account from "./components/account";
 import Clock from "./components/time";
 import { Button } from "../components/ui/button";
-import ThreeComponent from "./components/Three";
+import ThreeStudyComponent from "./components/Three/ThreeStudy";
+import ThreeProjectsComponent from "./components/Three/ThreeProjects";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -58,12 +59,7 @@ export default function Home() {
                     Projects
                   </h1>
                   <div className="relative flex flex-grow justify-center items-center w-full overflow-y-auto">
-                    {/* <FaLaptopCode className="w-full h-full"/> */}
-                    <IoLogoFirebase className="w-[30%] h-[30%] absolute top-16 left-0" />
-                    <SiTypescript className="w-[30%] h-[30%] absolute top-0 right-0" />
-                    <FaReact className="w-[30%] h-[30%] absolute bottom-0 left-7" />
-                    <SiNextdotjs className="w-[20%] h-[20%] absolute bottom-14 right-10" />
-                    <IoDocumentsOutline className="w-[40%] h-[40%]" />
+                    <ThreeProjectsComponent />
                   </div>
                 </div>
               </Link>
@@ -117,7 +113,7 @@ export default function Home() {
                     The Study
                   </h1>
                   <div className="relative flex flex-grow w-full overflow-y-auto">
-                    <ThreeComponent />
+                    <ThreeStudyComponent />
                   </div>
                 </div>
               </Link>

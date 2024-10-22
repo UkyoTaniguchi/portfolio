@@ -61,10 +61,10 @@ const CameraSetup: React.FC = () => {
     }
   });
 
-  return <perspectiveCamera ref={cameraRef} position={[0, 0, 3]} fov={50} />;
+  return <perspectiveCamera ref={cameraRef} position={[0, 0.5, 3]} fov={50} />;
 };
 
-const ThreeComponent: NextPage = () => {
+const ThreeStudyComponent: NextPage = () => {
   const totalIcons = 4;
 
   return (
@@ -108,4 +108,4 @@ const ThreeComponent: NextPage = () => {
   );
 };
 
-export default ThreeComponent;
+export default ThreeStudyComponent;
