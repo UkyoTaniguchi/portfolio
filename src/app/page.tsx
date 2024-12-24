@@ -6,13 +6,10 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import { FaLaptopCode } from "react-icons/fa";
-import { IoDocumentsOutline } from "react-icons/io5";
+import { SiQiita } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiNextdotjs } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
-import { GiArchiveResearch } from "react-icons/gi";
 import { FcLinux } from "react-icons/fc";
 import { FaUbuntu } from "react-icons/fa";
 import { GiCctvCamera } from "react-icons/gi";
@@ -128,7 +125,14 @@ export default function Home() {
                 <IoIosMail className="h-4/6 w-4/6" />
               </a>
             </div>
-            <div className="h-full w-1/2 rounded-2xl"></div>
+            <div className="h-full w-1/2 border rounded-2xl hover:bg-[#232323] overflow-hidden">
+              <Link
+                href="https://qiita.com/UkyoTaniguchi"
+                className="flex h-full w-full justify-center items-center"
+              >
+                <SiQiita className="h-4/6 w-4/6" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -226,7 +230,14 @@ export default function Home() {
               <IoIosMail className="w-full h-fit" />
             </a>
           </div>
-          <div className="relative w-1/2 rounded-2xl overflow-hidden"></div>
+          <div className="relative w-1/2 border rounded-2xl hover:bg-[#232323] overflow-hidden">
+            <Link
+              href="https://qiita.com/UkyoTaniguchi"
+              className="flex w-full justify-center items-center p-5 sm:p-16"
+            >
+              <SiQiita className="w-full h-fit" />
+            </Link>
+          </div>
         </div>
       </div>
     </main>
